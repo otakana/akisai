@@ -1,0 +1,111 @@
+html,body{
+    width: 100%;
+    display: none;
+}
+
+@media screen and (min-width:741px){
+    
+html,body{
+    display: block;
+    min-width: 960px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+}
+#left_side{
+    width: 14%;
+    float: left;
+    position:relative;
+    position:fixed;
+}
+
+#keio{
+    position: absolute;
+    left: 23%;
+    text-align: center;
+}
+.sidemenu{
+    display: block;
+    width: 155px;
+    margin: 10% 12%;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.25s ease;
+}
+
+.sidemenu:hover:nth-child(2n){
+    transform: rotate(14deg);
+    -webkit-transform: rotate(14deg);
+    -ms-transform: rotate(14deg);
+}
+.sidemenu:hover:nth-child(2n-1){
+     transform: rotate(-14deg);
+    -webkit-transform: rotate(-14deg);
+    -ms-transform: rotate(-14deg);
+}
+
+#smoothplay1_a{
+    margin-top: 60%;
+}
+.line{
+    position: relative;
+    display: block;
+}
+
+.line::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 35%;
+    width: 30%;
+    height: 0.85px;
+    background-color: gray;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;   
+}
+
+.line:hover::after {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+#top{
+    position: absolute;
+    left: 37%;
+}
+#top_a{
+    text-align: center;
+    color: #777777;
+    font-family: "arial narrow", sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    display: block;
+    padding-bottom: 2px;
+    border-bottom: solid gray 1px;
+}
+#top_a:hover{
+    letter-spacing: 7px;
+    border-bottom: none;
+}
+#right_side{
+    width: 86%;
+    height: 800px;
+    float: right;
+    position: relative;
+    border-left: solid 1px lightgray;
+}
+.contents{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#headline{
+    position:absolute;
+    left: 8%;
+    top: 8%;
+    color: gray;
+    font-size: 25px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    letter-spacing: 3px;
+}
+}
