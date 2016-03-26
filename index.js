@@ -1,6 +1,5 @@
     var position;
     function link(){
-        //location.href="#smoothplay"+a;
         $("html,body").animate({
             scrollTop : position
         }, {
@@ -71,8 +70,3 @@
             }, 1000);
         });
     });
-
-    /*$(window).resize(function(){
-        hsize = $(window).height();
-        $(".contents").css("height", hsize+"px");
-    });*/
