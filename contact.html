@@ -34,10 +34,10 @@
      
         <div id="smoothplay1" class="contents">
             <span id="headline">お問い合わせ</span>
-        <div class="form">
+        <div id="form">
         <p>こちらより秋祭実行員会にお問い合わせいただけます。</p>
         <p>お問い合わせいただいた内容については適宜対応していきます。</p>
-        <p>以下のフォームを全て適切に埋めた後、送信ボタンを押してください</p>
+        <p>以下のフォームを全て適切に埋めた後、送信ボタンを押してください。</p>
          <!--php部分 -->
         <form role="form" action="mail.php" method="post">
         <div class="form-group">
@@ -46,28 +46,23 @@
             <p><label for="exampleInputEmail1">E-mail</label></p>
             <p><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required></p>
             <p><label for="exampleInputText1">お問い合わせ内容</label></p>
-            <p><textarea class="form-control" rows="3" name="message" required></textarea></p>
+            <p><textarea class="form-control" rows="3" cols="55" name="message" required></textarea></p>
         </div>
         <button type="submit" value="SEND MESSAGE" class="btn btn-default">
-            Submit</button>
+            送信</button>
         </form>
-        <h2>連絡先</h2>
-        <p>〒252-0082</p>
-        <p>神奈川県藤沢市遠藤 5322</p>
-        <p>Facebook: 秋祭</p>
-        <p>Twitter:@akisai_sfc</p>
+        <h2><br>連絡先</h2>
+        <span id="address">
+        〒252-0082<br>
+        神奈川県藤沢市遠藤 5322<br>
+        Facebook: 秋祭<br>
+        Twitter:@akisai_sfc<br></span>
         </div>
-        <img src="img/yudai.png" alt="contact" width="60%" class="contact-img">
+
         </div>
+        <a href="index.html" id="top_sita">TOP</a>
 
 	</div>
-    <script>
-        $(function(){
-            $('.form').css({'position': 'absolute', 'left': '8%', 'top': '16%', 'width': '20%', 'text-align': 'left'});
-            $('.form p').css({'margin-top': '10px', 'font-size': '10px'});
 
-            $('.contact-img').css({'top': '8%', 'left': '30%', 'position': 'absolute', 'width': '70%'});
-        });
-    </script>
 </body>
 </html>
