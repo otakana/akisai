@@ -1,9 +1,88 @@
+@media screen and (max-width:480px){
 html,body{
     width: 100%;
-    display: none;
+    display: block;
 }
 
-@media screen and (min-width:741px){
+#left_side{
+    width: 0%;
+    display: none;
+}    
+.sidemenu{
+    display: none;  
+}
+#headline{
+    position:absolute;
+    left: 7%;
+    top: 8%;
+    color: gray;
+    font-size: 15px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    letter-spacing: 3px;
+    
+}
+.contents{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#greeding{
+    position: relative;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 80%;
+    height: 80%;
+}
+#aisatu{
+    font-size: 14px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+}
+#honbun{
+    font-size: 14px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    width: 82%;
+    position: absolute;
+    top: 9.5%;
+    left: 7%;
+    text-align: left;
+} 
+#top_sita{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 145%;
+    left: 7%;
+    color: gray;
+    letter-spacing: 1px;
+}
+#top_sita:hover{
+    border-bottom: solid 1px;
+}
+#form{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 60%;
+    text-align: left;
+} 
+#form p{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    margin-top: 0.1%;
+    font-size: 13px;
+}
+#address{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size:  13px;
+    
+}    
+    
+}
+@media screen and (min-width:481px){
     
 html,body{
     display: block;
@@ -24,10 +103,11 @@ html,body{
 }
 .sidemenu{
     display: block;
-    width: 155px;
-    margin: 10% 12%;
+    width: 90%;
+    margin: 10% 5%;
     transition: all 0.3s ease;
     -webkit-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
 }
 
 .sidemenu:hover:nth-child(2n){
@@ -101,11 +181,56 @@ html,body{
 }
 #headline{
     position:absolute;
-    left: 8%;
+    left: 7%;
     top: 8%;
     color: gray;
     font-size: 25px;
     font-family: YuGothic, '游ゴシック', sans-serif;
     letter-spacing: 3px;
 }
+#greeding{
+    position: relative;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 87%;
+    height: 30%;
+}
+#aisatu{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    top: 18%;
+    left: 7%;
+}
+#honbun{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    width: 87%;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    text-align: left;
+}
+#top_sita{
+    width: 0%;
+    display: none;
+}  
+#form{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 60%;
+    text-align: left;
+} 
+#form p{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    margin-top: 0.1%;
+    font-size: 15px;
+}
+#address{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size:  14px;
+    
+}
+    
 }
