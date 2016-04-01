@@ -46,7 +46,7 @@ html,body{
     font-family: YuGothic, '游ゴシック', sans-serif;
     width: 82%;
     position: absolute;
-    top: 9.5%;
+    top: 12>%;
     left: 7%;
     text-align: left;
 } 
@@ -61,6 +61,16 @@ html,body{
 }
 #top_sita:hover{
     border-bottom: solid 1px;
+}
+#twitter{
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    width: 80%;
+    height: 10%
+}
+#facebook{
+    display: none;
 }
 #form{
     font-family: YuGothic, '游ゴシック', sans-serif;
@@ -234,4 +244,17 @@ html,body{
 }
 iframe{
     left: 4%;
+}
+#twitter{
+    position: absolute;
+    top: 43%;
+    left: 11%;
+    width: 30%;
+}
+#facebook{
+    position: absolute;
+    top:46%;
+    left: 50%;
+    width: 30%;
+    height: auto;
 }
