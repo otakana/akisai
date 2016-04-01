@@ -242,9 +242,6 @@ html,body{
     font-size:  14px;
     
 }
-iframe{
-    left: 4%;
-}
 #twitter{
     position: absolute;
     top: 43%;
@@ -258,3 +255,22 @@ iframe{
     width: 30%;
     height: auto;
 }
+
+/*幅野入力*/
+.yajirushi{
+    font-size: 10px;
+    color:#848484;
+    position: relative;
+    left: 7%;
+}
+#syuyou{
+    position: absolute;
+    top: 62%;
+    left: 11%;
+}
+#moyori{
+    position: absolute;
+    top: 62%;
+    left: 55%;
+}
+/*終了*/
