@@ -64,9 +64,9 @@
         $("#shinkan").mouseover(function(){
             position = $("#smoothplay7").offset().top;
             link();
-        }).click(function(){
+        })/*.click(function(){
             setInterval(function(){
                 location.href= "shinkan.html";
             }, 1000);
-        });
+        })*/;
     });

@@ -94,13 +94,64 @@ body{
     text-align: center;
 }
 #smoothplay1{
-    background-color: aquamarine;
+    position: absolute;
+    position: relative;  
+}
+#akisaitoha{
+    position: absolute;
+    top:15%;
+    left: 8%;
+    text-align: left;
 }
 #smoothplay2{
-    background-color: coral;
+    position: absolute;
+    position: relative; 
 }
+#syougai{
+    position: absolute;
+    top:15%;
+    left: 45%;
+}
+#greeding{
+    position: relative;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 87%;
+    height: 30%;
+}
+#honbun{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    width: 87%;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    text-align: left;
+}
+
 #smoothplay3{
-    background-color: greenyellow;
+    position: absolute;
+    position: relative;
+}
+#info{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    
+}
+#twitter{
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    width: 30%;
+}
+#facebook{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 30%;
+    height: auto;
 }
 #smoothplay4{
     position: absolute;
@@ -114,13 +165,13 @@ body{
 #address{
     position: absolute;
     left: 8%;
-    top: 75%;
+    top: 55%;
     text-align: left;
 }
 #map{
     position: absolute;
     left: 40%;
-    top: 21%;
+    top: 15%;
 }
 #smoothplay5{
     position: absolute;
@@ -141,4 +192,8 @@ body{
     background-color: orange;
 }
 #smoothplay7{
+}
+h1{
+    font-size: 20px;
+    letter-spacing: 4px;
 }
