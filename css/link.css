@@ -1,4 +1,4 @@
-@media screen and (max-width:480px){
+@media screen and (max-width:740px){
 html,body{
     width: 100%;
     display: block;
@@ -89,10 +89,37 @@ html,body{
     font-family: YuGothic, '游ゴシック', sans-serif;
     font-size:  13px;
     
-}    
+} 
+#yudai{
+    width: 70%;
+    position: absolute;
+    left: 10%;
+    top: 3%;
+}
+.yajirushi{
+    font-size: 10px;
+    color:#848484;
+    position: relative;
+    left: 7%;
+}
+#syuyou{
+    position: absolute;
+    top: 62%;
+    left: 5%;
+}
+#moyori{
+    position: absolute;
+    top: 160%;
+    left: 5%;
+} 
+#link_map{
+    width: 130%
+}   
+    
+    
     
 }
-@media screen and (min-width:481px){
+@media screen and (min-width:741px){
     
 html,body{
     display: block;
@@ -254,6 +281,12 @@ html,body{
     left: 50%;
     width: 30%;
     height: auto;
+}
+#yudai{
+    position: absolute;
+    left: 35%;
+    top: 57%;
+    
 }
 
 /*幅野入力*/
