@@ -72,7 +72,10 @@
         $('#smart_shinkan').click(function(){
             setInterval(function(){
                 location.href= "shinkan.html";
+                alert("a0");
+                return;
             }, 2000);
+            alert("a1");
             return;
         });
     });
