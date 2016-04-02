@@ -69,13 +69,13 @@
         });
     });
     $(window).load(function(){
-        alert("a1");
+        alert("b1");
         $('#smart_shinkan').click(function(){
-            alert("a2");
+            alert("b2");
             setInterval(function(){
-                alert("a3")
+                location.href="index.html":
                 location.href= "shinkan.html";
-                alert("a4");
+                alert("b4");
             }, 500);
         });
         return;
