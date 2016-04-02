@@ -6,14 +6,17 @@
             queue : false
         });
     }
-
-    $(function(){
+    window.onunload = function(){};
+    $(window).load(function(){
         $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
         });
-        $("#about").mouseover(function(){
+        $('.smart_menu').click(function(){
+            $('body').fadeTo(100,0);
+        });
+        $("#about, #smart_about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
             link();
         }).click(function(){
@@ -21,7 +24,7 @@
                 location.href= "about.html";
             }, 1000);
         });
-        $("#news").mouseover(function(){
+        $("#news, #smart_news").mouseover(function(){
             position = $("#smoothplay2").offset().top;
             link();
         }).click(function(){
@@ -29,7 +32,7 @@
                 location.href= "news.html";
             }, 1000);
         });
-        $("#sponsor").mouseover(function(){
+        $("#sponsor, #smart_sponsor").mouseover(function(){
             position = $("#smoothplay3").offset().top;
             link();
         }).click(function(){
@@ -37,7 +40,7 @@
                 location.href= "sponsor.html";
             }, 1000);
         });
-        $("#access").mouseover(function(){
+        $("#access, #smart_access").mouseover(function(){
             position = $("#smoothplay4").offset().top;
             link();
         }).click(function(){
@@ -45,7 +48,7 @@
                 location.href= "access.html";
             }, 1000);
         });
-        $("#contact").mouseover(function(){
+        $("#contact, #smart_contact").mouseover(function(){
             position = $("#smoothplay5").offset().top;
             link();
         }).click(function(){
@@ -53,7 +56,7 @@
                 location.href= "contact.html";
             }, 1000);
         });
-        $("#gallery").mouseover(function(){
+        $("#gallery, #smart_gallery").mouseover(function(){
             position = $("#smoothplay6").offset().top;
             link();
         }).click(function(){
@@ -61,8 +64,14 @@
                 location.href= "gallery.html";
             }, 1000);
         });
-        $("#shinkan").mouseover(function(){
+        $("#shinkan #smart_shinkan").mouseover(function(){
             position = $("#smoothplay7").offset().top;
             link();
+        });
+        $('#smart_shinkan').click(function(){
+            setInterval(function(){
+                location.href= "shinkan.html";
+                alert("a0");
+            }, 500);
         });
     });

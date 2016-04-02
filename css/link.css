@@ -46,25 +46,71 @@ html,body{
     font-family: YuGothic, '游ゴシック', sans-serif;
     width: 82%;
     position: absolute;
-    top: 12>%;
+    top: 12%;
     left: 7%;
     text-align: left;
 } 
-#top_sita{
+#top_sita1{
     font-family: YuGothic, '游ゴシック', sans-serif;
     font-size: 16px;
     position: absolute;
-    top: 190%;
+    top: 165%;
+    left: 7%;
+    color: gray;
+    letter-spacing: 1px;
+}   
+#top_sita1:hover{
+    border-bottom: solid 1px;
+}
+#top_sita2{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 80%;
     left: 7%;
     color: gray;
     letter-spacing: 1px;
 }
-#top_sita:hover{
+#top_sita2:hover{
     border-bottom: solid 1px;
 }
-#twitter{
+#top_sita3{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 195%;
+    left: 7%;
+    color: gray;
+    letter-spacing: 1px;
+}
+#top_sita3:hover{
+    border-bottom: solid 1px;
+}
+#top_sita4{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 125%;
+    left: 7%;
+    color: gray;
+    letter-spacing: 1px;
+}
+#top_sita4:hover{
+    border-bottom: solid 1px;
+}
+#gallery_text{
+    font-size: 13px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
     position: absolute;
     top: 40%;
+    left: 7%;
+    text-align: left;
+    
+}
+    
+#twitter{
+    position: absolute;
+    top: 50%;
     left: 11%;
     width: 80%;
     height: 10%
@@ -95,17 +141,7 @@ html,body{
     position: absolute;
     left: 10%;
     top: 3%;
-<<<<<<< HEAD
-=======
 }
-.yajirushi{
-    font-size: 10px;
-    color:#848484;
-    position: relative;
-    left: 7%;
->>>>>>> kansukehabano/master
-}
-
 #syuyou{
     position: absolute;
     top: 62%;
@@ -119,7 +155,11 @@ html,body{
 #link_map{
     width: 130%
 }   
-    
+#s_shinkan{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}   
     
     
 }
@@ -299,15 +339,6 @@ html,body{
     color:#848484;
     position: relative;
     left:13%;
-<<<<<<< HEAD
-=======
-}
-.yajirushi2{
-    font-size: 10px;
-    color:#848484;
-    position: relative;
-    left:31%;
->>>>>>> kansukehabano/master
 }
 .yajirushi2{
     font-size: 10px;
@@ -325,10 +356,7 @@ html,body{
     top: 63%;
     left: 55%;
 }
-<<<<<<< HEAD
 /*
-=======
->>>>>>> kansukehabano/master
 .yajirushi3{
     position: relative;
     top: -8px;
