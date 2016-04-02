@@ -6,15 +6,20 @@
             queue : false
         });
     }
+
+    function test(){
+        alert("unload");
+        location.href = "index.html";
+    }
     $(function(){
         $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
         });
-        //$('.smart_menu').click(function(){
-        //    $('body').fadeTo(100,0);
-        //});
+        $('.smart_menu').click(function(){
+            $('body').fadeTo(100,0);
+        });
         $("#about, #smart_about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
             link();
