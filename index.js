@@ -12,9 +12,9 @@
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
         });
-        $('.smart_menu').click(function(){
-            $('body').fadeTo(100,0);
-        });
+        //$('.smart_menu').click(function(){
+        //    $('body').fadeTo(100,0);
+        //});
         $("#about, #smart_about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
             link();
@@ -71,11 +71,12 @@
     $(window).load(function(){
         alert("b1");
         $('#smart_shinkan').click(function(){
-            //setInterval(function(){
+            $('body').fadeTo(100, 0);
+            setInterval(function(){
                 location.href="index.html";
                 alert("b3");
                 location.href= "shinkan.html";
                 alert("b4");
-            //}, 500);
+            }, 500);
         });
     });
