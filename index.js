@@ -7,6 +7,10 @@
         });
     }
 
+    function test(){
+        location.href = "index.html"
+    }
+
     $(function(){
         $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
@@ -73,5 +77,4 @@
                 location.href= "shinkan.html";
             }, 1000);
         });
-        $(window).onload(function(){});
     });
