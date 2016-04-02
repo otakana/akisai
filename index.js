@@ -12,9 +12,9 @@
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
         });
-        //$('.smart_menu').click(function(){
-        //    $('body').fadeTo(100,0);
-        //});
+        $('.smart_menu').click(function(){
+            $('body').fadeTo(500,0);
+        });
         $("#about, #smart_about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
             link();
@@ -69,9 +69,17 @@
         });
     });
     $(window).load(function(){
-        alert("b1");
-        $('#smart_shinkan').click(function(){
-            $.when($('body').fadeTo(100, 0))
+        //alert("b1");
+        $('.smart_menu a').click(function(){
+            var url = $(this).attr('href');
+            if (url != ''){
+                $('body').fadeOut(1000);
+                setTimeout(function(){
+                    location.href = url;
+                }, 1000);
+            }
+            return false;
+            /*$.when($('body').fadeTo(100, 0))
             .done(function(){
                 setInterval(function(){
                 location.href="index.html";
@@ -79,6 +87,6 @@
                 location.href= "shinkan.html";
                 alert("b4");
                 }, 500);
-            });
+            });*/
         });
     });
