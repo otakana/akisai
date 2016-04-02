@@ -74,6 +74,7 @@
             alert("b2");
             setInterval(function(){
                 location.href="index.html";
+                alert("b3");
                 location.href= "shinkan.html";
                 alert("b4");
             }, 500);
