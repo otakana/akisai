@@ -95,6 +95,15 @@ html,body{
     position: absolute;
     left: 10%;
     top: 3%;
+<<<<<<< HEAD
+=======
+}
+.yajirushi{
+    font-size: 10px;
+    color:#848484;
+    position: relative;
+    left: 7%;
+>>>>>>> kansukehabano/master
 }
 
 #syuyou{
@@ -290,6 +299,15 @@ html,body{
     color:#848484;
     position: relative;
     left:13%;
+<<<<<<< HEAD
+=======
+}
+.yajirushi2{
+    font-size: 10px;
+    color:#848484;
+    position: relative;
+    left:31%;
+>>>>>>> kansukehabano/master
 }
 .yajirushi2{
     font-size: 10px;
@@ -307,7 +325,10 @@ html,body{
     top: 63%;
     left: 55%;
 }
+<<<<<<< HEAD
 /*
+=======
+>>>>>>> kansukehabano/master
 .yajirushi3{
     position: relative;
     top: -8px;
