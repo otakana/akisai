@@ -78,6 +78,7 @@
                 return;
                 alert("b4");
             }, 500);
+            return;
         });
         return;
     });
