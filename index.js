@@ -73,4 +73,5 @@
                 location.href= "shinkan.html";
             }, 1000);
         });
+        $(window).onload(function(){});
     });
