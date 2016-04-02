@@ -73,7 +73,7 @@
         $('#smart_shinkan').click(function(){
             alert("b2");
             setInterval(function(){
-                location.href="index.html":
+                location.href="index.html";
                 location.href= "shinkan.html";
                 alert("b4");
             }, 500);
