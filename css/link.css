@@ -54,7 +54,7 @@ html,body{
     font-family: YuGothic, '游ゴシック', sans-serif;
     font-size: 16px;
     position: absolute;
-    top: 145%;
+    top: 190%;
     left: 7%;
     color: gray;
     letter-spacing: 1px;
@@ -94,14 +94,9 @@ html,body{
     width: 70%;
     position: absolute;
     left: 10%;
-    top: 2%;
+    top: 3%;
 }
-.yajirushi{
-    font-size: 10px;
-    color:#848484;
-    position: relative;
-    left: 7%;
-}
+
 #syuyou{
     position: absolute;
     top: 62%;
@@ -109,7 +104,7 @@ html,body{
 }
 #moyori{
     position: absolute;
-    top: 160%;
+    top: 135%;
     left: 5%;
 } 
 #link_map{
@@ -159,7 +154,7 @@ html,body{
 }
 
 #smoothplay1_a{
-    margin-top: 60%;
+    margin-top: 97%;
 }
 .line{
     position: relative;
@@ -289,21 +284,32 @@ html,body{
     
 }
 
-/*幅野入力*/
+/*幅野入力
 .yajirushi{
     font-size: 10px;
     color:#848484;
     position: relative;
-    left: 7%;
+    left:13%;
 }
+.yajirushi2{
+    font-size: 10px;
+    color:#848484;
+    position: relative;
+    left:31%;
+}*/
 #syuyou{
     position: absolute;
-    top: 62%;
+    top: 63%;
     left: 11%;
 }
 #moyori{
     position: absolute;
-    top: 62%;
+    top: 63%;
     left: 55%;
+}
+/*
+.yajirushi3{
+    position: relative;
+    top: -8px;
 }
 /*終了*/
