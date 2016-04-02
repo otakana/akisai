@@ -69,8 +69,9 @@
         });
     });
     $(window).load(function(){
+        //alert("b1");
         $('body').hide();
-        $('body').fadeIn(500);
+        $('body').fadeIn(0);
         $('.smart_menu').click(function(){
             var url = $(this).children('a').attr('href');
             if (url != ''){
