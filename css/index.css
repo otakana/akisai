@@ -1,5 +1,331 @@
-body{
+@media screen and (max-width:640px){
+html,body{
+    display: block;
+    color: dimgray;
     font-family: YuGothic, '游ゴシック', sans-serif;
+}
+#left_side{
+    width: 0%;
+    display: none;
+}
+#right_side{
+    position:relative;
+    display: none;
+    width: 100%;   
+}
+/*
+.contents{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+}
+#smoothplay1{
+    position: absolute;
+    position: relative;  
+}
+#akisaitoha{
+    position: absolute;
+    top:30%;
+    left: 8%;
+    text-align: left;
+}
+#daihyou{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+#smoothplay2{
+    position: absolute;
+    position: relative; 
+}
+#syougai{
+    position: absolute;
+    top:15%;
+    left: 45%;
+}
+#greeding{
+    position: relative;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 87%;
+    height: 30%;
+}
+#honbun{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    width: 87%;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    text-align: left;
+}
+
+#smoothplay3{
+    position: absolute;
+    position: relative;
+}
+#info{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    
+}
+#twitter{
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    width: 30%;
+}
+#facebook{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 30%;
+    height: auto;
+}
+#smoothplay4{
+    position: absolute;
+    position: relative;
+}
+#train{
+    position: absolute;
+    left: -1%;
+    top: 22%;
+}
+#access_right{
+    position: absolute;
+    text-align: left;
+    top:50%;
+    left:50%;
+}
+#smoothplay5{
+    position: absolute;
+    position: relative;
+}
+#mail{
+    position:absolute;
+    left: 50%;
+    top: 13%;
+}
+#otoiawase{
+    position: absolute;
+    left: 8%;
+    top: 33%;
+    text-align: left;
+}
+#smoothplay6{
+    position: absolute;
+    position: relative;
+}
+#camera{
+    position: absolute;
+    left: -1%;
+    top: 22%;    
+}
+#gallery_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: left;
+}
+    
+    
+h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+*/
+
+#topmenu{
+    display: block;
+}
+#keio2{
+    position: absolute;
+    top:4%;
+}
+#keio1{
+    width: 0%;
+    display: none;
+}
+#logo{
+    position: absolute;
+    top: 15%;   
+}
+#top_greeding2{
+    position: absolute;
+    font-size: 13px;
+    top: 35%;
+    text-align: center
+}
+.smart_menu{
+    float: left;
+}
+#smart_about{
+    width: 34%;
+    position:absolute;
+    top: 64%;
+    left:31%;
+}
+#smart_news{
+    width: 20%;
+    position:absolute;
+    top: 65%;
+    left:5%;
+}
+#smart_sponsor{
+    width: 30%;
+    position:absolute;
+    top: 82%;
+    left:6%;
+}
+#smart_access{
+    width: 22%;
+    position:absolute;
+    top: 55%;
+    left:62%;
+}
+#smart_contact{
+    width: 26%; 
+    position:absolute;
+    top: 93%;
+    left:37%;
+}
+#smart_gallery{
+    width: 31%;
+    position:absolute;
+    top: 80%;
+    left:60%;
+}
+#smart_shinkan{
+    width: 19%;
+    position:absolute;
+    top: 53%;
+    left:24%;
+}
+    
+#smart_about:hover{
+    width: 30%;
+animation: rumble 0.9s linear infinite;
+} 
+@keyframes rumble{
+0%	{transform:rotate(0deg)	translate(0,0);}
+12.5%	{transform:rotate(2deg)	translate(3px,-1px);}
+25%	{transform:rotate(1deg)	translate(0px,1px);}
+37.5%	{transform:rotate(2deg)	translate(-1px,0);}
+50%	{transform:rotate(0deg)	translate(0,0);}
+62.5%	{transform:rotate(-2deg)	translate(1px,0);}
+75%	{transform:rotate(-1deg)	translate(0,1px);}
+87.5%	{transform:rotate(-2deg)	translate(-3px,-1px);}
+100%	{transform:rotate(0deg)	translate(0,0);}
+}
+#smart_news:hover{
+    width: 23%;
+animation: rumble 0.9s linear infinite;
+} 
+@keyframes rumble{
+0%	{transform:rotate(0deg)	translate(0,0);}
+12.5%	{transform:rotate(2deg)	translate(3px,-1px);}
+25%	{transform:rotate(1deg)	translate(0px,1px);}
+37.5%	{transform:rotate(2deg)	translate(-1px,0);}
+50%	{transform:rotate(0deg)	translate(0,0);}
+62.5%	{transform:rotate(-2deg)	translate(1px,0);}
+75%	{transform:rotate(-1deg)	translate(0,1px);}
+87.5%	{transform:rotate(-2deg)	translate(-3px,-1px);}
+100%	{transform:rotate(0deg)	translate(0,0);}
+}
+#smart_sponsor:hover{
+    width: 29%;
+animation: rumble 0.9s linear infinite;
+} 
+@keyframes rumble{
+0%	{transform:rotate(0deg)	translate(0,0);}
+12.5%	{transform:rotate(2deg)	translate(3px,-1px);}
+25%	{transform:rotate(1deg)	translate(0px,1px);}
+37.5%	{transform:rotate(2deg)	translate(-1px,0);}
+50%	{transform:rotate(0deg)	translate(0,0);}
+62.5%	{transform:rotate(-2deg)	translate(1px,0);}
+75%	{transform:rotate(-1deg)	translate(0,1px);}
+87.5%	{transform:rotate(-2deg)	translate(-3px,-1px);}
+100%	{transform:rotate(0deg)	translate(0,0);}
+}
+#smart_access:hover{
+    width: 24%;
+animation: rumble 0.9s linear infinite;
+} 
+@keyframes rumble{
+0%	{transform:rotate(0deg)	translate(0,0);}
+12.5%	{transform:rotate(2deg)	translate(3px,-1px);}
+25%	{transform:rotate(1deg)	translate(0px,1px);}
+37.5%	{transform:rotate(2deg)	translate(-1px,0);}
+50%	{transform:rotate(0deg)	translate(0,0);}
+62.5%	{transform:rotate(-2deg)	translate(1px,0);}
+75%	{transform:rotate(-1deg)	translate(0,1px);}
+87.5%	{transform:rotate(-2deg)	translate(-3px,-1px);}
+100%	{transform:rotate(0deg)	translate(0,0);}
+}
+#smart_gallery:hover{
+    width: 29%;
+animation: rumble 0.9s linear infinite;
+} 
+@keyframes rumble{
+0%	{transform:rotate(0deg)	translate(0,0);}
+12.5%	{transform:rotate(2deg)	translate(3px,-1px);}
+25%	{transform:rotate(1deg)	translate(0px,1px);}
+37.5%	{transform:rotate(2deg)	translate(-1px,0);}
+50%	{transform:rotate(0deg)	translate(0,0);}
+62.5%	{transform:rotate(-2deg)	translate(1px,0);}
+75%	{transform:rotate(-1deg)	translate(0,1px);}
+87.5%	{transform:rotate(-2deg)	translate(-3px,-1px);}
+100%	{transform:rotate(0deg)	translate(0,0);}
+}
+#smart_contact:hover{
+    width: 28%;
+animation: rumble 0.9s linear infinite;
+} 
+@keyframes rumble{
+0%	{transform:rotate(0deg)	translate(0,0);}
+12.5%	{transform:rotate(2deg)	translate(3px,-1px);}
+25%	{transform:rotate(1deg)	translate(0px,1px);}
+37.5%	{transform:rotate(2deg)	translate(-1px,0);}
+50%	{transform:rotate(0deg)	translate(0,0);}
+62.5%	{transform:rotate(-2deg)	translate(1px,0);}
+75%	{transform:rotate(-1deg)	translate(0,1px);}
+87.5%	{transform:rotate(-2deg)	translate(-3px,-1px);}
+100%	{transform:rotate(0deg)	translate(0,0);}
+}
+#smart_shinkan:hover{
+    width: 23%;
+animation: rumble 0.9s linear infinite;
+} 
+@keyframes rumble{
+0%	{transform:rotate(0deg)	translate(0,0);}
+12.5%	{transform:rotate(2deg)	translate(3px,-1px);}
+25%	{transform:rotate(1deg)	translate(0px,1px);}
+37.5%	{transform:rotate(2deg)	translate(-1px,0);}
+50%	{transform:rotate(0deg)	translate(0,0);}
+62.5%	{transform:rotate(-2deg)	translate(1px,0);}
+75%	{transform:rotate(-1deg)	translate(0,1px);}
+87.5%	{transform:rotate(-2deg)	translate(-3px,-1px);}
+100%	{transform:rotate(0deg)	translate(0,0);}
+}
+   
+#akisai_web_top{
+    width: 0%;
+    display: none;
+}    
+}
+@media screen and (min-width:641px){
+html,body{
+    display: block;
+    color: #555555;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+}
+#keio1{
+    position: absolute;
+    width: 13%;
+    top: 5%;
+    left: 5%;
 }
 #left_side{
     width: 20%;
@@ -7,20 +333,13 @@ body{
     position:relative;
     position:fixed;
 }
-
-#keio{
-    position: absolute;
-    left: 23%;
-    text-align: center;
-}
 .sidemenu{
     display: block;
-    width: 64%;
-    margin: 10% 13%;
+    width: 66%;
+    margin: 7% 13%;
     transition: all 0.3s ease;
     -webkit-transition: all 0.25s ease;
 }
-
 .sidemenu:hover:nth-child(2n){
     transform: rotate(14deg);
     -webkit-transform: rotate(14deg);
@@ -35,7 +354,7 @@ body{
 }
 
 #smoothplay1_a{
-    margin-top: 60%;
+    margin-top: 97%;
 }
 .line{
     position: relative;
@@ -85,31 +404,143 @@ body{
     height: 800px;
     float: right;
     position: relative;
+    z-index: 0;
 }
 
 .contents{
     width: 100%;
-    height: 100%;
+    height: 90%;
     text-align: center;
 }
 #smoothplay1{
-    background-color: aquamarine;
+    position: absolute;
+    position: relative;  
+}
+#akisai_web_top{
+    z-index: 0;
+}    
+#top_greeding1{
+    z-index: 1;
+    position: absolute;
+    top: 70%;
+    left: 4%;
+    text-align: center;
+    font-size: 18px;
+}
+#akisaitoha{
+    position: absolute;
+    top:30%;
+    left: 8%;
+    text-align: left;
+}
+#daihyou{
+    position: absolute;
+    top: 15%;
+    left: 55%;
 }
 #smoothplay2{
-    background-color: coral;
+    position: absolute;
+    position: relative; 
 }
+#syougai{
+    position: absolute;
+    top:15%;
+    left: 45%;
+}
+#greeding{
+    position: relative;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 87%;
+    height: 30%;
+}
+#honbun{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    width: 87%;
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    text-align: left;
+}
+
 #smoothplay3{
-    background-color: greenyellow;
+    position: absolute;
+    position: relative;
+}
+#info{
+    text-align: left;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    
+}
+#twitter{
+    position: absolute;
+    top: 33%;
+    left: 8%;
+    width: 30%;
+}
+#facebook{
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    width: 30%;
+    height: auto;
 }
 #smoothplay4{
-    background-color: lightpink;
+    position: absolute;
+    position: relative;
+}
+#train{
+    position: absolute;
+    left: -1%;
+    top: 22%;
+}
+#access_right{
+    position: absolute;
+    text-align: left;
+    top:50%;
+    left:50%;
 }
 #smoothplay5{
-    background-color: lightgreen;
+    position: absolute;
+    position: relative;
+}
+#mail{
+    position:absolute;
+    left: 50%;
+    top: 13%;
+}
+#otoiawase{
+    position: absolute;
+    left: 8%;
+    top: 33%;
+    text-align: left;
 }
 #smoothplay6{
-    background-color: orange;
+    position: absolute;
+    position: relative;
 }
-#smoothplay7{
-    background-color: lightyellow;
+#camera{
+    position: absolute;
+    left: -1%;
+    top: 22%;    
+}
+#gallery_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: left;
+}
+    
+    
+h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+#topmenu{
+    width: 0%;
+    display: none;
+}
 }

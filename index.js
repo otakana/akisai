@@ -6,13 +6,15 @@
             queue : false
         });
     }
-
     $(function(){
-        $(".sidemenu").click(function(){
+        $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
         });
+        /*$('.smart_menu').click(function(){
+            $('body').fadeTo(500,0);
+        });*/
         $("#about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
             link();
@@ -64,9 +66,19 @@
         $("#shinkan").mouseover(function(){
             position = $("#smoothplay7").offset().top;
             link();
-        }).click(function(){
-            setInterval(function(){
-                location.href= "shinkan.html";
-            }, 1000);
+        });
+    });
+    $(window).load(function(){
+        //$('body').hide();
+        //$('body').fadeIn(0);
+        $('.smart_menu').click(function(){
+            var url = $(this).children('a').attr('href');
+            if (url != ''){
+                //$('body').fadeOut(1000);
+                setTimeout(function(){
+                    location.href = url;
+                }, 1000);
+            }
+            return false;
         });
     });

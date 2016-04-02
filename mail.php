@@ -2,7 +2,7 @@
 $field_name = $_POST['name'];
 $field_email = $_POST['email'];
 $field_message = $_POST['message'];
-$mail_to = 'akisai2016@gmail.com';
+$mail_to = 'aki16-contact@gmail.com';
 $subject = 'Message from a site vivitor '.$field_name;
 $body_message = 'Form: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";

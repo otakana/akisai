@@ -1,8 +1,119 @@
+@media screen and (max-width:740px){
 html,body{
     width: 100%;
-    display: none;
+    display: block;
 }
 
+#left_side{
+    width: 0%;
+    display: none;
+}    
+.sidemenu{
+    display: none;  
+}
+#headline{
+    position:absolute;
+    left: 7%;
+    top: 8%;
+    color: gray;
+    font-size: 15px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    letter-spacing: 3px;
+    
+}
+.contents{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+#greeding{
+    position: relative;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 80%;
+    height: 80%;
+}
+#aisatu{
+    font-size: 14px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    top: 4%;
+    left: 7%;
+}
+#honbun{
+    font-size: 14px;
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    width: 82%;
+    position: absolute;
+    top: 12>%;
+    left: 7%;
+    text-align: left;
+} 
+#top_sita{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 190%;
+    left: 7%;
+    color: gray;
+    letter-spacing: 1px;
+}
+#top_sita:hover{
+    border-bottom: solid 1px;
+}
+#twitter{
+    position: absolute;
+    top: 40%;
+    left: 11%;
+    width: 80%;
+    height: 10%
+}
+#facebook{
+    display: none;
+}
+#form{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 60%;
+    text-align: left;
+} 
+#form p{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    margin-top: 0.1%;
+    font-size: 13px;
+}
+#address{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size:  13px;
+    
+} 
+#yudai{
+    width: 70%;
+    position: absolute;
+    left: 10%;
+    top: 3%;
+}
+
+#syuyou{
+    position: absolute;
+    top: 62%;
+    left: 5%;
+}
+#moyori{
+    position: absolute;
+    top: 135%;
+    left: 5%;
+} 
+#link_map{
+    width: 130%
+}   
+    
+    
+    
+}
 @media screen and (min-width:741px){
     
 html,body{
@@ -24,10 +135,11 @@ html,body{
 }
 .sidemenu{
     display: block;
-    width: 155px;
-    margin: 10% 12%;
+    width: 90%;
+    margin: 10% 5%;
     transition: all 0.3s ease;
     -webkit-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
 }
 
 .sidemenu:hover:nth-child(2n){
@@ -42,7 +154,7 @@ html,body{
 }
 
 #smoothplay1_a{
-    margin-top: 60%;
+    margin-top: 97%;
 }
 .line{
     position: relative;
@@ -101,11 +213,103 @@ html,body{
 }
 #headline{
     position:absolute;
-    left: 8%;
+    left: 7%;
     top: 8%;
     color: gray;
     font-size: 25px;
     font-family: YuGothic, '游ゴシック', sans-serif;
     letter-spacing: 3px;
 }
+#greeding{
+    position: relative;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    width: 87%;
+    height: 30%;
 }
+#aisatu{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    top: 18%;
+    left: 7%;
+}
+#honbun{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    width: 87%;
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    text-align: left;
+}
+#top_sita{
+    width: 0%;
+    display: none;
+}  
+#form{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    width: 60%;
+    text-align: left;
+} 
+#form p{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    margin-top: 0.1%;
+    font-size: 15px;
+}
+#address{
+    font-family: YuGothic, '游ゴシック', sans-serif;
+    font-size:  14px;
+    
+}
+#twitter{
+    position: absolute;
+    top: 43%;
+    left: 11%;
+    width: 30%;
+}
+#facebook{
+    position: absolute;
+    top:46%;
+    left: 50%;
+    width: 30%;
+    height: auto;
+}
+#yudai{
+    position: absolute;
+    left: 35%;
+    top: 57%;
+    
+}
+
+/*幅野入力
+.yajirushi{
+    font-size: 10px;
+    color:#848484;
+    position: relative;
+    left:13%;
+}
+.yajirushi2{
+    font-size: 10px;
+    color:#848484;
+    position: relative;
+    left:31%;
+}*/
+#syuyou{
+    position: absolute;
+    top: 63%;
+    left: 11%;
+}
+#moyori{
+    position: absolute;
+    top: 63%;
+    left: 55%;
+}
+/*
+.yajirushi3{
+    position: relative;
+    top: -8px;
+}
+/*終了*/

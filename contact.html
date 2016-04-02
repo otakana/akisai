@@ -2,9 +2,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>お問い合わせ</title>
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/link.css" rel="stylesheet">
+    <link rel="icon" href="img/favicon.gif" type="image/gif">
+    
     
 	
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -13,18 +16,16 @@
 <body>
     
     <div id="left_side">
-        
-        <span id="keio">慶應義塾大学<br>湘南藤沢キャンパス<br>第25回秋祭</span>
-        <img id="logo" alt="logo" src="img/#" width="100%">
+       
     
         <ul>
             <li class="sidemenu"><a href="#smoothplay1" id="smoothplay1_a" class="line"><img id="about" alt="about" src="img/about.png" width="100%"></a></li>
-            <li class="sidemenu"><a href="news.html" class="line"><img id="news" alt="news" src="img/news.png" width="100%"></a></li>
-            <li class="sidemenu"><a href="sponsor.html" class="line"><img id="sponsor" alt="sponsor" src="img/sponsor.png" width="100%"></a></li>
-            <li class="sidemenu"><a href="access.html" class="line"><img id="access" alt="access" src="img/access.png" width="100%"></a></li>
-            <li class="sidemenu"><a href="contact.html" class="line"><img id="contact" alt="contact" src="img/contact.png" width="100%"></a></li>
-            <li class="sidemenu"><a href="gallery.html" class="line"><img id="gallery" alt="gallery" src="img/gallery.png" width="100%"></a></li>
-            <li class="sidemenu"><a href="shinkan.html" class="line"><img id="shinkan" alt="shinkan" src="img/shinkan.png" width="100%"></a></li>
+            <li class="sidemenu"><a href="#smoothplay1" class="line"><img id="news" alt="news" src="img/news.png" width="100%"></a></li>
+            <li class="sidemenu"><a href="#smoothplay1" class="line"><img id="sponsor" alt="sponsor" src="img/sponsor.png" width="100%"></a></li>
+            <li class="sidemenu"><a href="#smoothplay1" class="line"><img id="access" alt="access" src="img/access.png" width="100%"></a></li>
+            <li class="sidemenu"><a href="#smoothplay1" class="line"><img id="contact" alt="contact" src="img/contact.png" width="100%"></a></li>
+            <li class="sidemenu"><a href="#smoothplay1" class="line"><img id="gallery" alt="gallery" src="img/gallery.png" width="100%"></a></li>
+            <li class="sidemenu"><a href="#smoothplay1" class="line"><img id="shinkan" alt="shinkan" src="img/shinkan.png" width="100%"></a></li>
             <li id="top"><a href="index.html" id="top_a">TOP</a></li>
         </ul>
     </div>
@@ -32,12 +33,12 @@
     
     <div id="right_side">
      
-        <div id="smoothplay1" class="contents">
+        <div class="contents">
             <span id="headline">お問い合わせ</span>
-        <div class="form">
+        <div id="form">
         <p>こちらより秋祭実行員会にお問い合わせいただけます。</p>
         <p>お問い合わせいただいた内容については適宜対応していきます。</p>
-        <p>以下のフォームを全て適切に埋めた後、送信ボタンを押してください</p>
+        <p>以下のフォームを全て適切に埋めた後、送信ボタンを押してください。</p>
          <!--php部分 -->
         <form role="form" action="mail.php" method="post">
         <div class="form-group">
@@ -46,28 +47,23 @@
             <p><label for="exampleInputEmail1">E-mail</label></p>
             <p><input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" name="email" required></p>
             <p><label for="exampleInputText1">お問い合わせ内容</label></p>
-            <p><textarea class="form-control" rows="3" name="message" required></textarea></p>
+            <p><textarea class="form-control" rows="3" cols="55" name="message" required></textarea></p>
         </div>
         <button type="submit" value="SEND MESSAGE" class="btn btn-default">
-            Submit</button>
+            送信</button>
         </form>
-        <h2>連絡先</h2>
-        <p>〒252-0082</p>
-        <p>神奈川県藤沢市遠藤 5322</p>
-        <p>Facebook: 秋祭</p>
-        <p>Twitter:@akisai_sfc</p>
+        <h2><br>連絡先</h2>
+        <span id="address">
+        〒252-0082<br>
+        神奈川県藤沢市遠藤 5322<br>
+        Facebook: 秋祭<br>
+        Twitter:@akisai_sfc<br></span>
         </div>
-        <img src="img/yudai.png" alt="contact" width="60%" class="contact-img">
+
         </div>
+        <a href="index.html" id="top_sita">TOP</a>
 
 	</div>
-    <script>
-        $(function(){
-            $('.form').css({'position': 'absolute', 'left': '8%', 'top': '16%', 'width': '20%', 'text-align': 'left'});
-            $('.form p').css({'margin-top': '10px', 'font-size': '10px'});
 
-            $('.contact-img').css({'top': '8%', 'left': '30%', 'position': 'absolute', 'width': '70%'});
-        });
-    </script>
 </body>
 </html>
