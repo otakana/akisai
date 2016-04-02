@@ -12,7 +12,6 @@
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
-            return;
         });
         $('.smart_menu').click(function(){
             $('body').fadeTo(100,0);
@@ -73,7 +72,6 @@
             setInterval(function(){
                 location.href= "shinkan.html";
                 alert("a0");
-                return;
             }, 500);
         });
     });
