@@ -6,8 +6,8 @@
             queue : false
         });
     }
-
-    $(function(){
+    window.onunload = function(){};
+    $(window).load(function(){
         $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
