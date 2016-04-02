@@ -6,11 +6,6 @@
             queue : false
         });
     }
-
-    function test(){
-        alert("unload");
-        location.href = "index.html";
-    }
     $(function(){
         $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
@@ -72,6 +67,8 @@
             position = $("#smoothplay7").offset().top;
             link();
         });
+    });
+    $(window).load(function(){
         $('#smart_shinkan').click(function(){
             setInterval(function(){
                 location.href= "shinkan.html";
