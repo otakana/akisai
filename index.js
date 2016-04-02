@@ -15,7 +15,7 @@
             return;
         });
         $('.smart_menu').click(function(){
-            $('body').fadeTo(500,0);
+            $('body').fadeTo(100,0);
         });
         $("#about, #smart_about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
@@ -74,8 +74,6 @@
                 location.href= "shinkan.html";
                 alert("a0");
                 return;
-            }, 2000);
-            alert("a1");
-            return;
+            }, 500);
         });
     });
