@@ -8,7 +8,7 @@
     }
 
     $(function(){
-        $(".sidemenu").click(function(){
+        $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
@@ -64,9 +64,5 @@
         $("#shinkan").mouseover(function(){
             position = $("#smoothplay7").offset().top;
             link();
-        })/*.click(function(){
-            setInterval(function(){
-                location.href= "shinkan.html";
-            }, 1000);
-        })*/;
+        });
     });
