@@ -12,9 +12,9 @@
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
         });
-        /*$('.smart_menu').click(function(){
+        $('.smart_menu').click(function(){
             $('body').fadeTo(500,0);
-        });*/
+        });
         $("#about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
             link();
@@ -69,9 +69,8 @@
         });
     });
     $(window).load(function(){
-        //alert("b1");
         $('body').hide();
-        $('body').fadeIn(0);
+        $('body').fadeIn(500);
         $('.smart_menu').click(function(){
             var url = $(this).children('a').attr('href');
             if (url != ''){
