@@ -15,7 +15,7 @@
         /*$('.smart_menu').click(function(){
             $('body').fadeTo(500,0);
         });*/
-        $("#about, #smart_about").mouseover(function(){
+        $("#about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
             link();
         }).click(function(){
@@ -23,7 +23,7 @@
                 location.href= "about.html";
             }, 1000);
         });
-        $("#news, #smart_news").mouseover(function(){
+        $("#news").mouseover(function(){
             position = $("#smoothplay2").offset().top;
             link();
         }).click(function(){
@@ -31,7 +31,7 @@
                 location.href= "news.html";
             }, 1000);
         });
-        $("#sponsor, #smart_sponsor").mouseover(function(){
+        $("#sponsor").mouseover(function(){
             position = $("#smoothplay3").offset().top;
             link();
         }).click(function(){
@@ -39,7 +39,7 @@
                 location.href= "sponsor.html";
             }, 1000);
         });
-        $("#access, #smart_access").mouseover(function(){
+        $("#access").mouseover(function(){
             position = $("#smoothplay4").offset().top;
             link();
         }).click(function(){
@@ -47,7 +47,7 @@
                 location.href= "access.html";
             }, 1000);
         });
-        $("#contact, #smart_contact").mouseover(function(){
+        $("#contact").mouseover(function(){
             position = $("#smoothplay5").offset().top;
             link();
         }).click(function(){
@@ -55,7 +55,7 @@
                 location.href= "contact.html";
             }, 1000);
         });
-        $("#gallery, #smart_gallery").mouseover(function(){
+        $("#gallery").mouseover(function(){
             position = $("#smoothplay6").offset().top;
             link();
         }).click(function(){
@@ -63,7 +63,7 @@
                 location.href= "gallery.html";
             }, 1000);
         });
-        $("#shinkan #smart_shinkan").mouseover(function(){
+        $("#shinkan").mouseover(function(){
             position = $("#smoothplay7").offset().top;
             link();
         });
@@ -81,14 +81,5 @@
                 }, 1000);
             }
             return false;
-            /*$.when($('body').fadeTo(100, 0))
-            .done(function(){
-                setInterval(function(){
-                location.href="index.html";
-                alert("b3");
-                location.href= "shinkan.html";
-                alert("b4");
-                }, 500);
-            });*/
         });
     });
