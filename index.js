@@ -6,28 +6,13 @@
             queue : false
         });
     }
-<<<<<<< HEAD
-    window.onunload = function(){};
-    $(window).load(function(){
-=======
     $(function(){
->>>>>>> kansukehabano/master
         $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
         });
-<<<<<<< HEAD
-        $('.smart_menu').click(function(){
-            $('body').fadeTo(100,0);
-        });
         $("#about, #smart_about").mouseover(function(){
-=======
-        /*$('.smart_menu').click(function(){
-            $('body').fadeTo(500,0);
-        });*/
-        $("#about").mouseover(function(){
->>>>>>> kansukehabano/master
             position = $("#smoothplay1").offset().top;
             link();
         }).click(function(){
@@ -79,13 +64,6 @@
             position = $("#smoothplay7").offset().top;
             link();
         });
-<<<<<<< HEAD
-        $('#smart_shinkan').click(function(){
-            setInterval(function(){
-                location.href= "shinkan.html";
-                alert("a0");
-            }, 500);
-=======
     });
     $(window).load(function(){
         //$('body').hide();
@@ -99,6 +77,5 @@
                 }, 1000);
             }
             return false;
->>>>>>> kansukehabano/master
         });
     });
