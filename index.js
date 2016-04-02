@@ -70,6 +70,7 @@
     });
     $(window).load(function(){
         //alert("b1");
+        $('body').fadeIn(2000);
         $('.smart_menu a').click(function(){
             var url = $(this).attr('href');
             if (url != ''){
