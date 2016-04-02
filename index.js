@@ -71,12 +71,14 @@
     $(window).load(function(){
         alert("b1");
         $('#smart_shinkan').click(function(){
-            $('body').fadeTo(100, 0);
-            setInterval(function(){
+            $.when($('body').fadeTo(100, 0))
+            .done(function(){
+                setInterval(function(){
                 location.href="index.html";
                 alert("b3");
                 location.href= "shinkan.html";
                 alert("b4");
-            }, 500);
+                }, 500);
+            });
         });
     });
