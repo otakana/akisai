@@ -69,6 +69,7 @@
         });
     });
     $(window).load(function(){
+        alert("load");
         $('#smart_shinkan').click(function(){
             setInterval(function(){
                 location.href= "shinkan.html";
