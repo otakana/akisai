@@ -6,11 +6,19 @@
             queue : false
         });
     }
+    window.onpageshow = function(evt) {
+    if (evt.persisted) {
+      location.reload();
+    }
+    };
     $(function(){
         $("#about, #news, #sponsor, #access, #contact, #gallery").click(function(){
             $('body').fadeTo(500,0);
             $('#left_side').animate({width:"14%"}, "slow" );
             $('#right_side').animate({width:"86%"}, "slow" );
+        });
+        $('.smart_menu').click(function(){
+            $('body').fadeTo(500,0);
         });
         $("#about, #smart_about").mouseover(function(){
             position = $("#smoothplay1").offset().top;
@@ -60,18 +68,18 @@
                 location.href= "gallery.html";
             }, 1000);
         });
-        $("#shinkan #smart_shinkan").mouseover(function(){
+        $("#shinkan, #smart_shinkan").mouseover(function(){
             position = $("#smoothplay7").offset().top;
             link();
         });
     });
     $(window).load(function(){
-        //$('body').hide();
-        //$('body').fadeIn(0);
+        $('body').hide();
+        $('body').fadeIn(400);
         $('.smart_menu').click(function(){
             var url = $(this).children('a').attr('href');
             if (url != ''){
-                //$('body').fadeOut(1000);
+                $('body').fadeOut(1000);
                 setTimeout(function(){
                     location.href = url;
                 }, 1000);
